@@ -1,7 +1,7 @@
 # This contains params to be used by the stages to train or predict
 prepare:
-  split: 0.20
-  seed: 2021
+  split: 0.25
+  seed: 2022
 
 featurize:
   max_features: 3000
@@ -9,5 +9,5 @@ featurize:
 
 train:
   seed: 2021
-  n_est: 100
-  min_split: 16
+  n_est: 250
+  min_split: 20
